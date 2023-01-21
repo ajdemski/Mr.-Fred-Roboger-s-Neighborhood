@@ -1,16 +1,9 @@
-// BUSINESS LOGIC
+// Business Logic
 
-window.onload =function() {
+const numberToWord = ["Beep", "Boop", "Won't you be my neighbor"]
+numberToWord.forEach(function(value, index) {
 
-}
-
-
-
+});
 
 
-
-// USER LOGIC
-
-
-
-
+// UI Logic

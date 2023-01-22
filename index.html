@@ -8,22 +8,20 @@
   <img src="C:\Users\ajdem\Downloads\robot.jfif" alt="Robot">
 </head>
 <body>
-  <div class="container">
-    <h2>Text Analyzer</h2>
-    <form id="word-counter">
-      <div class="form-group">
-        <p>Input a Number to get Roboger's Answer:</p>
-        <textarea id="text-passage" name="text-passage" class="form-control"></textarea>
-        <br>
-        <button type="submit" class="btn btn-success">Submit Survey</button>
-      </div>
-    </form>
-    <br>
-    <p>Roboger's Answer : <span id="selected-count"></span></p>
-    <div id="bolded-passage">
-
+    <div class="container">
+        <h2>Text Analyzer</h2>
+        <form id="wordCounter">
+            <div class="form-group">
+                <label for="xNum">Input a Number to get Roboger's Answer:</label>
+                <input type="text" id="xNum" name="xNum">
+                <br>
+                <button type="submit" class="btn-success">Submit</button>
+            </div>
+        </form>
+        <p>Roboger's Answer :</p>
+        <p id="selected-count"></p>
+        <div id="bolded-passage"></div>
     </div>
-  </div>
 </body>
 </html>
 
